@@ -1,0 +1,41 @@
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+    .inner_menu {background: none; min-height: auto; padding: 0px;}
+    .inner_menu ul{float: none; text-align: left;}
+    .inner_menu::after{ background: none;}
+    .inner_menu ul li:first-child {padding-left: 0px; }
+    .search_area { float: none; width: 100%;}
+    .mean-container .mean-nav { margin-top: 0 auto;}
+    .search_area form { padding: 2px; float: none; max-width: 1024px; width: 60%; }
+    .search_area input {border: 2px solid;border-radius: 2px solid; padding: 1%; float: left; width: 43%;}
+    .search_area input[type="submit"] {width: 20%; cursor: pointer; background-color: #ffff; border-left: 1px solid rgb(238, 235, 235);}
+    .images img{width: 95%; }
+
+    }
+
+    @media only screen and (min-width:200px) and (max-width:768px){
+        .inner_menu {background: none; min-height: auto; padding: 0px;}
+        .inner_menu ul{float: none; text-align: left;}
+        .inner_menu::after{ background: none;}
+        .inner_menu ul li:first-child {padding-left: 0px; }
+        .search_area { float: none; width: 100%;}
+        .mean-container .mean-nav { margin-top: 0 auto;}
+        .search_area form { padding: 2px; float: none; max-width: 1024px; width: 100%; }
+        .search_area input {border: 2px solid;border-radius: 2px solid; padding: 1%; float: left; width: 43%;}
+        .search_area input[type="submit"] {width: 20%; cursor: pointer; background-color: #ffff; border-left: 1px solid rgb(238, 235, 235);}
+        .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager{bottom: -2px;}
+        .child_content{float: none;}
+        .Vivamuslibero_one, .Vivamuslibero_two, .Vivamuslibero_three, .Vivamuslibero_four{width: 90%; text-align: center;}
+        .child_content h3{text-align: center;}
+        .images img{width: 95%; padding-left: 25px;}
+        .content{margin-left: 25px;}
+        .child_footer{float: none; width: 90%; padding-top: 10px; margin-left: 25px;}
+        .child_footer h2{padding-bottom: 10px;}
+        .content_area{float: none; width: 90%; padding-top: 20px;padding-bottom: 20px;}
+        .links ul li{width: 70%;}
+        .newslater input{float: none; width: 85%;}
+        .left_copyright, .right_copyright{float: none; text-align: center;}
+    
+        
+    
+        }
