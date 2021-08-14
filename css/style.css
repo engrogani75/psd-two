@@ -334,9 +334,12 @@ header css
 
 .search_area input{
     border: 0px solid;
-    width: 75%;
-    padding: 1%;
+    width: 70%;
+    padding: 8px;
     float: left;
+    border-radius: 5px;
+    outline: none;
+    
 }
 
 .search_area input[type="submit"]{
